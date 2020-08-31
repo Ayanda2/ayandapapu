@@ -20,8 +20,8 @@
         <h1>Hello, Welcome</h1>
         <p>By Ayanda Papu</p>
       </header>
-      <p>Email: ukhopapu@gmail.com</p>
-      <p>Contact number : 0815216709</p>
+      <!-- <p>Email: ukhopapu@gmail.com</p>
+      <p>Contact number : 0815216709</p> -->
       <footer>
         <a href="#banner" class="button style2 scrolly-middle"
           >Checkout my Portfolio</a
@@ -35,10 +35,11 @@
         <h2>Who am I</h2>
       </header>
       <p>
-        Im a South African born Software developer based in Cape Town. Highly
-        motivated and passionate about building, solving problems and finding
-        solutions through technology. Ensuring that I learning through every
-        experience I get in order to improve my skills and gain knowledge.
+        I'm a self taught developer.Ever since I was introduced to my first
+        “hello world” project by my mentor and computer scientist cousin, I fell
+        in love with software development and made it my goal to learn and
+        pursue this career. . Highly motivated and passionate about building,
+        solving problems and finding solutions through technology.
       </p>
       <footer>
         <a href="#first" class="button style2 scrolly"
@@ -48,65 +49,97 @@
     </section>
 
     <!-- Feature 1 -->
-    <article id="first" class="container box style1 right">
-      <a href="https://trade-it-85a1e.web.app/" class="image fit"
-        ><img src="images/store.png " alt=""
-      /></a>
-      <div class="inner">
-        <header>
-          <h2>
-            Greenleaf<br />
-            Click image to see the site
-          </h2>
-        </header>
-        <p>
-          Greanleaf is an Ecommerce store built using React js. In this store
-          you are able to add and remove products from the basket or checkout
-          page, this was achieved through the use of react-context-api which is
-          similar to Redux. In the checkout page users are able to see the
-          subtotal price of their products and this was achieved through the use
-          of the react-currency-formater. Finally this site is hosted by
-          firebase and uses firebase authentication to allow users to create an
-          account and login. Click the image to see the site.
-        </p>
-        <a
-          href="https://github.com/Ayanda2/Trade-it"
-          class="icon brands fa-github"
-          >View Code</a
-        >
-      </div>
-    </article>
+    <div class="flex">
+      <article class="container box style1 left">
+        <a href="https://chatter-c0317.web.app/" class="image fit"
+          ><img src="images/chat.png" alt=""
+        /></a>
+        <div class="inner">
+          <header>
+            <h2>
+              I-CHAT <br />
+              Click image to see the site
+            </h2>
+          </header>
+          <p>
+            I-CHAT is a social media app I built with React js ,it allows logged
+            in user to comment and post pictures . This site uses firebase
+            authentication , storage and dabase, meaning every time a user signs
+            up he or she is added to the data base and is displayed on the app
+            when they comment or post. On the right you see instagram embed
+            which is an npm package alows you to see instagram stories and
+            posts.
+          </p>
+          <a
+            href="https://github.com/Ayanda2/I-CHAT"
+            class="icon brands fa-github"
+            >View Code</a
+          >
+        </div>
+      </article>
 
-    <!-- Feature 2 -->
-    <article class="container box style1 left">
-      <a href="https://netwatch-baa3f.web.app/" class="image fit"
-        ><img src="images/movie.png" alt=""
-      /></a>
-      <div class="inner">
-        <header>
-          <h2>
-            Netwatch <br />
-            Click image to see the site
-          </h2>
-        </header>
-        <p>
-          Netwatch is built with React js using data from the movie database api
-          (TMDB API). In this site you are able to find top rated movies,
-          comedy, action, horror and romantic movies including top rated series.
-          As you will notice every time you reload the page the banner movie
-          thumbnail will change .This site allows you to see trailers of your
-          favorite movies and series using react-youtube. This allows the site
-          to play trailers of the selected movie or series from youtube. Due to
-          some inconsistencies from the api click on series's like money heist
-          and stranger things to see the full functionality of the site.
-        </p>
-        <a
-          href="https://github.com/Ayanda2/Netwatch"
-          class="icon brands fa-github"
-          >View Code</a
-        >
-      </div>
-    </article>
+      <article id="first" class="container box style1 right">
+        <a href="https://trade-it-85a1e.web.app/" class="image fit"
+          ><img src="images/store.png " alt=""
+        /></a>
+        <div class="inner">
+          <header>
+            <h2>
+              Greenleaf<br />
+              Click image to see the site
+            </h2>
+          </header>
+          <p>
+            Greanleaf is an Ecommerce store built using React js. In this store
+            you are able to add and remove products from the basket or checkout
+            page, this was achieved through the use of react-context-api which
+            is similar to Redux. In the checkout page users are able to see the
+            subtotal price of their products and this was achieved through the
+            use of the react-currency-formater. Finally this site is hosted by
+            firebase and uses firebase authentication to allow users to create
+            an account and login. Click the image to see the site.
+          </p>
+          <a
+            href="https://github.com/Ayanda2/Trade-it"
+            class="icon brands fa-github"
+            >View Code</a
+          >
+        </div>
+      </article>
+
+      <!-- Feature 2 -->
+
+      <article class="container box style1 left">
+        <a href="https://netwatch-baa3f.web.app/" class="image fit"
+          ><img src="images/movie.png" alt=""
+        /></a>
+        <div class="inner">
+          <header>
+            <h2>
+              Netwatch <br />
+              Click image to see the site
+            </h2>
+          </header>
+          <p>
+            Netwatch is built with React js using data from the movie database
+            api (TMDB API). In this site you are able to find top rated movies,
+            comedy, action, horror and romantic movies including top rated
+            series. As you will notice every time you reload the page the banner
+            movie thumbnail will change .This site allows you to see trailers of
+            your favorite movies and series using react-youtube. This allows the
+            site to play trailers of the selected movie or series from youtube.
+            Due to some inconsistencies from the api click on series's like
+            money heist and stranger things to see the full functionality of the
+            site.
+          </p>
+          <a
+            href="https://github.com/Ayanda2/Netwatch"
+            class="icon brands fa-github"
+            >View Code</a
+          >
+        </div>
+      </article>
+    </div>
 
     <!-- Portfolio -->
     <!-- <article class="container box style2">
